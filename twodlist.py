@@ -9,6 +9,6 @@ school=[class1, class2, class3]
 print(school)
 print(school[1])
 print(school[2][1]) #prints the value of the 2nd index of the 3rd list
-print(school[1] + school[2])
+print("The school has ",school[0]+school[1] + school[2])
 
 
