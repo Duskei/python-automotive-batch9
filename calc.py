@@ -1,25 +1,20 @@
-#following is a calculator code that uses a user defined function
+#Code for importing the functions into another code
 
-def calc(num1, num2, ch):
-    if(ch==1):
-        return num1 + num2
-    elif(ch == 2):
-        return abs(num1- num2)
-    elif(ch==3):
-        return num1 * num2
-    elif(ch==4):
-        if(num2 != 0):
-            return num1/num2
-        else:
-            print("Wrong input")
+def add(num1, num2):
+    return num1 + num2
+def sub(num1, num2):
+    return abs(num1- num2)
+def mul(num1, num2, num3):
+    return num1 * num2 *num3
+    #for i in num2:
+    #   product= product+i
+     #   return product
+def div(num1, num2):       
+    if(num2 != 0):
+        return num1/num2
     else:
-        print("Wrong choice.")
+        print("Wrong input")
 
-num1= int(input("enter num1: "))
-num2= int(input("enter num2: "))
-print("1. Addition\n2. Subtraction\n3. Multiplication\n4. Division")
-ch= int(input("enter choice of operation: "))
-print("result is: ",calc(num1, num2, ch))
-
-# calling the calc function
-calc(num1, num2, ch) 
+#num1= int(input())
+#num2= int(input())
+#num3= int(input())
