@@ -1,8 +1,3 @@
-# ---------------------------------------------
-# MARKS VALIDATION SYSTEM
-# Team 6 Presentation Code
-# ---------------------------------------------
-
 # Tuple to store fixed subject names
 subjects = (
     "Mathematics",
