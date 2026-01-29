@@ -1,0 +1,12 @@
+brand: Toyota
+model: Camry
+mileage: 15000
+fuel_consumption: 8.5
+unit: L/100km
+fuel_type: Gasoline
+engine_capacity: 2.5L
+co2_emissions: 190g/km
+transmission: Automatic
+drivetrain: AWD
+tank_capacity: 60L
+last_service_date: 2023-11-15
