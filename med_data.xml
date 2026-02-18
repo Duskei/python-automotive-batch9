@@ -1,0 +1,11 @@
+<HospitalRecord>
+    <Patient>
+        <Issue>Hypertension</Issue>
+    </Patient>
+    <Patient>
+        <Issue>Asthma</Issue>
+    </Patient>
+    <Patient>
+        <Issue>Diabetes</Issue>
+    </Patient>
+</HospitalRecord>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AUTOSAR xmlns="http://autosar.org/schema/r4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://autosar.org/schema/r4.0 AUTOSAR_4-2-2.xsd">
+  <AR-PACKAGES>
+    <AR-PACKAGE>
+      <SHORT-NAME>ECU_Config</SHORT-NAME>
+      <ELEMENTS>
+        <CONSTANT-SPECIFICATION>
+          <SHORT-NAME>CAN_BAUDRATE</SHORT-NAME>
+          <VALUE-SPEC>
+            <NUMERICAL-VALUE-SPECIFICATION>
+              <SHORT-LABEL>CAN_BAUDRATE</SHORT-LABEL>
+              <VALUE>500000</VALUE>
+            </NUMERICAL-VALUE-SPECIFICATION>
+          </VALUE-SPEC>
+        </CONSTANT-SPECIFICATION>
+        <CONSTANT-SPECIFICATION>
+          <SHORT-NAME>ECU_ID</SHORT-NAME>
+          <VALUE-SPEC>
+            <NUMERICAL-VALUE-SPECIFICATION>
+              <SHORT-LABEL>ECU_ID</SHORT-LABEL>
+              <VALUE>300</VALUE>
+            </NUMERICAL-VALUE-SPECIFICATION>
+          </VALUE-SPEC>
+        </CONSTANT-SPECIFICATION>
+      </ELEMENTS>
+    </AR-PACKAGE>
+  </AR-PACKAGES>
+</AUTOSAR>
